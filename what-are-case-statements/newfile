@@ -1,0 +1,22 @@
+#! /bin/bash
+
+read -p "enter a value: " n
+
+case $n in
+
+    1|2) 
+         echo "one or two";;
+
+    [3-9]) 
+         echo "three through nine";;
+    
+    ??) 
+        echo "two characters";;
+
+    *.txt)
+        echo "text file";;
+
+    *)
+        echo "other";;
+
+esac

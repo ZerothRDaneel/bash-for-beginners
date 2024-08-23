@@ -1,0 +1,10 @@
+#! /bin/bash
+
+hello_world='hello world'
+pwd=$(pwd)
+whoam=$(whoami)
+dir=$(ls -l)
+chmod 000 newfile)
+
+echo "$hello_world from $whoam in folder $pwd with contents $dir"
+echo "Changing file permissions so you cannot run this again"

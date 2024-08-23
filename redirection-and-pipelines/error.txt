@@ -1,1 +1,1 @@
-ls: cannot access './dir': No such file or directory
+-rw-rw-rw- 1 vscode vscode 0 Aug 20 02:31 fakew.txt
